@@ -67,6 +67,20 @@ CtxPipe is a novel and efficient framework for automated data preparation pipeli
 | DiffPrep | <https://github.com/chu-data-lab/DiffPrep>                               | Python 3.9.17, torch 1.8.1                     |
 | SAGA     | <https://github.com/damslab/reproducibility/tree/master/sigmod2024-SAGA> | OpenJDK 11.0.19                                |
 
+## Dataset
+
+CtxPipe uses the same datasets from [HAIPipe](https://github.com/ruc-datalab/Haipipe) for training, and the datasets from [DiffPrep](https://github.com/chu-data-lab/DiffPrep) and [Deepline](https://github.com/yuvalhef/gym-deepline) for testing.
+
+Please download the datasets at
+
+- <https://github.com/ruc-datalab/Haipipe?tab=readme-ov-file#dataset>
+- <https://github.com/chu-data-lab/DiffPrep/tree/main/data>
+- <https://github.com/yuvalhef/gym-deepline/tree/master/gym_deepline/envs/datasets/classification/train>
+
+and put them in the corresponding subfolders of `<ctxpipe_folder>/data`.
+
+For example, HAIPipe datasets are put in `<ctxpipe_folder>/data/dataset`, while DiffPrep datasets are put in `<ctxpipe_folder>/data/diffprep_dataset`, etc.
+
 ## Development
 
 ### Repository Structure
