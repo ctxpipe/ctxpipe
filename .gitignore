@@ -144,4 +144,5 @@ exp*/
 /tmpdata
 
 # Datasets (downlaod separately)
-/data
+/data/*
+!/data/meta
